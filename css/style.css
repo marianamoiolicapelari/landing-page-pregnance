@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+.wrapper .navbar {
+    display: flex;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 0.5rem 12rem;
+    z-index: 1;
+    background-color: #F3F2F0;
+}
+
+.navbar-img img {
+    width: 50%;
+}
+
+.wrapper .navbar .navbar-itens ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .navbar .navbar-itens ul a {
+    margin-left: 4rem;
+    color: #737982;
+    font-size: 1.4rem;
+}
+
+.wrapper .navbar .navbar-itens ul a:hover {
+    color: #303D4A;
+}
+
+
+/*-------------------------------------*/
+
+.wrapper .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10rem 2rem 2rem 2rem;
+    background-image: url(../assets/img/img\ \(10\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper .main .main-information {
+    display: flex;
+    flex-direction: column;
+    margin: 9rem;
+    padding: 0 3rem;
+
+}
+
+.wrapper .main .main-information h1 {
+    font-size: 5rem;
+    color: #303D4A;
+    margin-bottom: 4rem;
+}
+
+.wrapper .main .main-information p {
+    font-size: 1.6rem;
+    color: #737982;
+    margin-bottom: 4rem;
+}
+
+.wrapper .main .main-information #pattern-btn {
+    width: 20%;
+    padding: 1rem;
+    background-color: #F0C9C4;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #303D4A;
+    cursor: pointer;
+}
+
+/*-----------------------------------------------------*/
+
+.wrapper .program {
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/img/img\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.wrapper .program .program-information {
+    width: 50%;
+    margin: 20rem 10rem;
+}
+
+.wrapper .program .program-information h2 {
+    font-size: 5rem;
+    color: #303D4A;
+    margin-bottom: 5rem;
+}
+
+.wrapper .program .program-information p {
+    font-size: 1.6rem;
+    color: #737982;
+    margin-bottom: 5rem;
+}
+
+.wrapper .program .program-information #pattern-btn {
+    width: 20%;
+    padding: 1rem;
+    background-color: #F0C9C4;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #303D4A;
+    cursor: pointer;
+}
+
+/*---------------------------------------*/
+
+.wrapper .steps {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem;
+    background-color: #f7f7f7;
+}
+
+/*---------------------------------------*/
+
+.wrapper .types {
+    display: flex;
+    align-items: center;
+    padding: 10rem;
+    background-image: url(../assets/img/img\ \(6\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper .types .types-information h2{
+    font-size: 5rem;
+    color: #303D4A;
+    margin-bottom: 5rem;
+}
+
+.wrapper .types .types-information p {
+    font-size: 1.6rem;
+    color: #737982;
+    margin-bottom: 5rem;
+}
+
+.wrapper .types .types-information #pattern-btn {
+    width: 20%;
+    padding: 1rem;
+    background-color: #F0C9C4;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #303D4A;
+    cursor: pointer;
+}
+
+/*-----------------------------------*/
+
+.wrapper .promotional {
+    display: flex;
+    background-color: #F1F0EE;
+}
+
+.wrapper .promotional .promotional-information h2{
+    font-size: 5rem;
+    color: #303D4A;
+    margin-bottom: 5rem;
+}
+
+.wrapper .promotional .promotional-information p {
+    font-size: 1.6rem;
+    color: #737982;
+    margin-bottom: 5rem;
+}
+
+.wrapper .promotional .promotional-information #pattern-btn {
+    width: 20%;
+    padding: 1rem;
+    background-color: #F0C9C4;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #303D4A;
+    cursor: pointer;
+}
+
+/*------------------------------------*/
+
+
+
+
+
