@@ -204,6 +204,48 @@
 
 /*------------------------------------*/
 
+.wrapper .galery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../assets/img/img\ \(10\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper .galery .galery-information h3 {
+    font-size: 5rem;
+    color: #303D4A;
+    margin: 3rem;
+}
+
+.wrapper .galery .galery-information p {
+    font-size: 1.6rem;
+    color: #737982;
+}
+
+.wrapper .galery .galery-cards {
+    display: flex;
+}
+
+/*------------------------------------*/
+
+.wrapper .presentation-video {
+    display: flex;
+    background-color: #F0C9C4;
+}
+
+.wrapper .presentation-video .presentation-video-information h3{
+    font-size: 5rem;
+    color: #303D4A;
+    margin: 3rem;
+}
+
+.wrapper .presentation-video .presentation-video-information p {
+    font-size: 1.6rem;
+    color: #737982;
+}
+
 
 
 
