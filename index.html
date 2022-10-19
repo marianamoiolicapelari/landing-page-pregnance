@@ -20,18 +20,18 @@
             </div>
             <div class="navbar-itens">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Training</a></li>
-                    <li><a href="#">Event</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#program">About</a></li>
+                    <li><a href="#galery">Blog</a></li>
+                    <li><a href="#video">Training</a></li>
+                    <li><a href="#types">Event</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </header>
 
-        <div class="main">
+        <div class="main" id="main">
             <div class="main-img">
                 <img class="img" src="./assets/img/img (1).jpeg" alt="mulher_fazendo_yoga">
             </div>
@@ -43,7 +43,7 @@
             </div>
         </div>
 
-        <div class="program">
+        <div class="program" id="program">
             <div class="program-information">
                 <h2>Pregnant <br> Woman Program</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusamus ea, soluta minus non ad
@@ -70,7 +70,7 @@
             </div>
         </div>
 
-        <div class="types">
+        <div class="types" id="types">
             <div class="types-information">
                 <h2>Yoga Brething <br> or Pranayama</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusamus ea, soluta minus non ad
@@ -83,10 +83,10 @@
         </div>
 
         <div class="promotional">
-            <div class="promotional-img">
-                <img class="img" src="./assets/img/img (8).jpeg" alt="mulher_fazendo_yoga">
-            </div>
-            <div class="promotional-information">
+
+            <img class="img" src="./assets/img/img (8).jpeg" alt="mulher_fazendo_yoga">
+
+            <div class="promotional-information" id="shop">
                 <h2>Join Now and <br> Get 50% Off</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusamus ea, soluta minus non ad
                     exercitationem beatae quidem deleniti repudiandae quis esse eos quo error. Fuga.</p>
@@ -94,24 +94,24 @@
             </div>
         </div>
 
-        <div class="galery">
+        <div class="galery" id="galery">
             <div class="galery-information">
                 <h3>Galery</h3>
                 <p>Quibusdam accusamus ea exercitationem beatae quidem deleniti repudiandae quis esse eos quo error.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    Lorem ipsum dolor sit amet.</p>
             </div>
             <div class="galery-cards">
-                <div class="galery-card-first">
+                <div class="galery-card-itens">
                     <img src="./assets/img/img (13).jpeg" alt="mulher_fazendo_yoga">
                     <h3>Facilis Gravida</h3>
                     <p>A lacus vestibulum sed. Amet purus gravida quis blandit turpis.</p>
                 </div>
-                <div class="galery-card-second">
+                <div class="galery-card-itens">
                     <img src="./assets/img/img (11).jpeg" alt="mulher_fazendo_yoga">
                     <h3>Facilis Gravida</h3>
                     <p>A lacus vestibulum sed. Amet purus gravida quis blandit turpis.</p>
                 </div>
-                <div class="galery-card-third">
+                <div class="galery-card-itens">
                     <img src="./assets/img/img (12).jpeg" alt="mulher_fazendo_yoga">
                     <h3>Facilis Gravida</h3>
                     <p>A lacus vestibulum sed. Amet purus gravida quis blandit turpis.</p>
@@ -119,7 +119,7 @@
             </div>
         </div>
 
-        <div class="presentation-video">
+        <div class="presentation-video" id="video">
             <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/xfhfltT2Keo"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -127,21 +127,25 @@
             <div class="presentation-video-information">
                 <h3>Yoga Training </br> Video Showreel</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusamus ea, soluta minus non ad
-                    exercitationem beatae quidem deleniti repudiandae quis esse eos quo error.</p>
-                <div class="icons"></div>
+                    exercitationem beatae.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                </div>
             </div>
         </div>
 
-        <div class="contact">
+        <div class="contact" id="contact">
             <h3>Get in Touch</h3>
             <p>Amet consectetur adipisicing elit. Quibusdam accusamus ea, soluta minus non ad
-                exercitationem beatae quidem deleniti.</p>
+                exercitationem beatae quidem deleniti uibusdam accusamus ea, soluta.</p>
             <form class="contact-form">
                 <input type="text" placeholder="Your Name">
                 <input type="text" placeholder="Gender">
                 <input type="text" placeholder="Messages">
-                <button class="contact-form-btn" type="submit"></button>
-            </form>    
+                <button class="contact-form-btn" type="submit">SEND MESSAGE</button>
+            </form>
         </div>
 
         <div class="footer">
@@ -150,16 +154,56 @@
                 <p>Halimun Street 25</p>
                 <p>Jakarta, Indonesia</p>
                 <p>12850</p>
-                <p>www.yourdomain.com</p>
+                <h3>www.yourdomain.com</h3>
             </div>
             <div class="sitemap">
-                <h2>Sitemap</h2>
+                <ul>
+                    <li>Sitemap</li>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Menu</li>
+                    <li>Store</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="lorem-ipsum">
+                <ul>
+                    <li>Lorem Ipsum</li>
+                    <li>Neque</li>
+                    <li>Suspendisse</li>
+                    <li>Dictum</li>
+                    <li>Portitor</li>
+                    <li>Tincidunt</li>
+                    <li>Enim lobortis</li>
+                </ul>
+            </div>
+            <div class="sit-amet">
+                <ul>
+                    <li>Sit Amet</li>
+                    <li>Neque</li>
+                    <li>Suspendisse</li>
+                    <li>Dictum</li>
+                    <li>Portitor</li>
+                    <li>Tincidunt</li>
+                    <li>Enim lobortis</li>
+                </ul>
+            </div>
+            <div class="social">
+                <img src="./assets/img/flower.png" width="80px" alt="">
+                <p>Copyright 2020 Freepik</p>
+                <p>Company S.L. All rights reserved.</p>
+                <div class="icons">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                </div>
             </div>
         </div>
 
     </div>
 
-
+    <script src="https://kit.fontawesome.com/aa1aa89619.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

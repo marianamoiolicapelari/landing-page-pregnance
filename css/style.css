@@ -79,7 +79,7 @@
 }
 
 .wrapper .main .main-information #pattern-btn {
-    width: 20%;
+    width: 30%;
     padding: 1rem;
     background-color: #F0C9C4;
     border: none;
@@ -87,6 +87,11 @@
     font-weight: 600;
     color: #303D4A;
     cursor: pointer;
+}
+
+.wrapper .main .main-information #pattern-btn:hover {
+    background-color: #d4b0ab;
+    color: #555a5f;
 }
 
 /*-----------------------------------------------------*/
@@ -128,6 +133,11 @@
     cursor: pointer;
 }
 
+.wrapper .program .program-information #pattern-btn:hover {
+    background-color: #d4b0ab;
+    color: #555a5f;
+}
+
 /*---------------------------------------*/
 
 .wrapper .steps {
@@ -149,7 +159,7 @@
     background-size: cover;
 }
 
-.wrapper .types .types-information h2{
+.wrapper .types .types-information h2 {
     font-size: 5rem;
     color: #303D4A;
     margin-bottom: 5rem;
@@ -162,7 +172,7 @@
 }
 
 .wrapper .types .types-information #pattern-btn {
-    width: 20%;
+    width: 30%;
     padding: 1rem;
     background-color: #F0C9C4;
     border: none;
@@ -170,6 +180,11 @@
     font-weight: 600;
     color: #303D4A;
     cursor: pointer;
+}
+
+.wrapper .types .types-information #pattern-btn:hover {
+    background-color: #d4b0ab;
+    color: #555a5f;
 }
 
 /*-----------------------------------*/
@@ -177,22 +192,27 @@
 .wrapper .promotional {
     display: flex;
     background-color: #F1F0EE;
+    padding-top: 3rem;
 }
 
-.wrapper .promotional .promotional-information h2{
+.wrapper .promotional img {
+    width: 250rem;
+}
+
+.wrapper .promotional .promotional-information h2 {
     font-size: 5rem;
     color: #303D4A;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .wrapper .promotional .promotional-information p {
     font-size: 1.6rem;
     color: #737982;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 
 .wrapper .promotional .promotional-information #pattern-btn {
-    width: 20%;
+    width: 30%;
     padding: 1rem;
     background-color: #F0C9C4;
     border: none;
@@ -200,6 +220,11 @@
     font-weight: 600;
     color: #303D4A;
     cursor: pointer;
+}
+
+.wrapper .promotional .promotional-information #pattern-btn:hover {
+    background-color: #d4b0ab;
+    color: #555a5f;
 }
 
 /*------------------------------------*/
@@ -211,6 +236,14 @@
     background-image: url(../assets/img/img\ \(10\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 5rem;
+}
+
+.wrapper .galery .galery-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
 }
 
 .wrapper .galery .galery-information h3 {
@@ -222,31 +255,174 @@
 .wrapper .galery .galery-information p {
     font-size: 1.6rem;
     color: #737982;
+    margin: 0 15rem;
+    text-align: center;
 }
 
 .wrapper .galery .galery-cards {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    background-color: #f7f7f7;
 }
+
+
+.wrapper .galery .galery-cards .galery-card-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    box-shadow: 10px 10px 18px 0px rgba(194, 191, 191, 0.75);
+    
+    
+}
+
+.wrapper .galery .galery-cards .galery-card-itens h3 {
+    font-size: 2rem;
+    color: #303D4A;
+    margin: 1rem;
+}
+
+.wrapper .galery .galery-cards .galery-card-itens p {
+    font-size: 1rem;
+    color: #737982;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
 
 /*------------------------------------*/
 
 .wrapper .presentation-video {
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F0C9C4;
+    padding: 10rem;
 }
 
-.wrapper .presentation-video .presentation-video-information h3{
-    font-size: 5rem;
+.wrapper .presentation-video .video {
+    box-shadow: 10px 10px 18px 0px rgba(129, 127, 127, 0.75);
+}
+
+.wrapper .presentation-video .presentation-video-information {
+    width: 40%;
+    padding-left: 3rem;
+}
+
+.wrapper .presentation-video .presentation-video-information h3 {
+    font-size: 3rem;
     color: #303D4A;
-    margin: 3rem;
+    margin-bottom: 2rem;
 }
 
 .wrapper .presentation-video .presentation-video-information p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: #737982;
+    margin-bottom: 2rem;
+}
+
+.wrapper .presentation-video .presentation-video-information .icons .fa-brands {
+    color: #303D4A;
+    font-size: 1.8rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.wrapper .presentation-video .presentation-video-information .icons .fa-brands:hover {
+    color: #6b6d6e;
 }
 
 
 
+/*------------------------------------*/
+
+.wrapper .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../assets/img/img\ \(10\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+}
+
+.wrapper .contact h3 {
+    font-size: 4rem;
+    color: #303D4A;
+    margin-bottom: 2rem;
+}
+
+.wrapper .contact p {
+    font-size: 1.5rem;
+    color: #737982;
+    margin-bottom: 2rem;
+    padding: 0 10rem;
+    text-align: center;
+}
+
+.wrapper .contact .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .contact .contact-form input {
+    width: 60vw;
+    height: 3rem;
+    margin-bottom: 2rem;
+    border: solid 2px #a4a5a5;
+    background-color: #edf1f1;
+}
+
+.wrapper .contact .contact-form input::placeholder {
+    padding-left: 1rem;
+}
+
+.wrapper .contact .contact-form .contact-form-btn {
+    width: 20%;
+    padding: 1rem;
+    background-color: #F0C9C4;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #303D4A;
+    cursor: pointer;
+}
+
+.wrapper .contact .contact-form .contact-form-btn:hover {
+    background-color: #d4b0ab;
+    color: #555a5f;
+}
+
+/*------------------------------------*/
+
+.wrapper .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #303D4A;
+    color: #f7f7f7;
+    padding: 4rem;
+    line-height: 1.8rem;
+}
+
+.wrapper .footer .company h2 {
+    margin-bottom: 1rem;
+} 
+
+.wrapper .footer .company h3 {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.wrapper .footer .icons {
+    cursor: pointer;
+}
+
+.wrapper .footer .icons .fa-brands:hover {
+    color: #6b6d6e;
+}
 
 
