@@ -11,7 +11,6 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
-
 }
 
 .wrapper .navbar {
@@ -63,7 +62,6 @@
     flex-direction: column;
     margin: 9rem;
     padding: 0 3rem;
-
 }
 
 .wrapper .main .main-information h1 {
@@ -102,7 +100,6 @@
     background-image: url(../assets/img/img\ \(2\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .wrapper .program .program-information {
@@ -273,8 +270,6 @@
     align-items: center;
     width: 25%;
     box-shadow: 10px 10px 18px 0px rgba(194, 191, 191, 0.75);
-    
-    
 }
 
 .wrapper .galery .galery-cards .galery-card-itens h3 {
