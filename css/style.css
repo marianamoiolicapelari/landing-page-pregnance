@@ -45,8 +45,6 @@
 }
 
 
-/*-------------------------------------*/
-
 .wrapper .main {
     display: flex;
     align-items: center;
@@ -92,7 +90,6 @@
     color: #555a5f;
 }
 
-/*-----------------------------------------------------*/
 
 .wrapper .program {
     display: flex;
@@ -135,7 +132,6 @@
     color: #555a5f;
 }
 
-/*---------------------------------------*/
 
 .wrapper .steps {
     display: flex;
@@ -145,7 +141,6 @@
     background-color: #f7f7f7;
 }
 
-/*---------------------------------------*/
 
 .wrapper .types {
     display: flex;
@@ -184,7 +179,6 @@
     color: #555a5f;
 }
 
-/*-----------------------------------*/
 
 .wrapper .promotional {
     display: flex;
@@ -224,7 +218,6 @@
     color: #555a5f;
 }
 
-/*------------------------------------*/
 
 .wrapper .galery {
     display: flex;
@@ -286,9 +279,6 @@
 }
 
 
-
-/*------------------------------------*/
-
 .wrapper .presentation-video {
     display: flex;
     align-items: center;
@@ -329,9 +319,6 @@
     color: #6b6d6e;
 }
 
-
-
-/*------------------------------------*/
 
 .wrapper .contact {
     display: flex;
@@ -391,7 +378,6 @@
     color: #555a5f;
 }
 
-/*------------------------------------*/
 
 .wrapper .footer {
     display: flex;
