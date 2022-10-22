@@ -251,6 +251,7 @@
 
 .wrapper .galery .galery-cards {
     display: flex;
+    align-itens:center;
     justify-content: space-around;
     margin-bottom: 5rem;
     background-color: #f7f7f7;
