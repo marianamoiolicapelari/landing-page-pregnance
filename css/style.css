@@ -135,7 +135,7 @@
 
 .wrapper .steps {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 5rem;
     background-color: #f7f7f7;
