@@ -11,7 +11,6 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
-
 }
 
 .wrapper .navbar {
@@ -61,7 +60,6 @@
     flex-direction: column;
     margin: 9rem;
     padding: 0 3rem;
-
 }
 
 .wrapper .main .main-information h1 {
@@ -92,13 +90,16 @@
     color: #555a5f;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 69516968ca097a14e9a740b381d852f6884d2213
 .wrapper .program {
     display: flex;
     align-items: center;
     background-image: url(../assets/img/img\ \(2\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .wrapper .program .program-information {
@@ -137,18 +138,21 @@
 
 .wrapper .steps {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 5rem;
     background-color: #f7f7f7;
 }
 
+<<<<<<< HEAD
 .wrapper .steps .itens-steps {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+=======
+>>>>>>> 69516968ca097a14e9a740b381d852f6884d2213
 
 .wrapper .types {
     display: flex;
@@ -259,6 +263,7 @@
 
 .wrapper .galery .galery-cards {
     display: flex;
+    align-itens:center;
     justify-content: space-around;
     margin-bottom: 5rem;
     background-color: #f7f7f7;
