@@ -58,12 +58,16 @@
 .wrapper .main .main-information {
     display: flex;
     flex-direction: column;
-    margin: 9rem;
+    margin: 1rem;
     padding: 0 3rem;
 }
 
+.wrapper .main .main-img img{
+    width: 600px;
+}
+
 .wrapper .main .main-information h1 {
-    font-size: 4rem;
+    font-size: rem;
     color: #303D4A;
     margin-bottom: 4rem;
 }
