@@ -100,29 +100,29 @@
     align-items: center;
     background-image: url(../assets/img/img\ \(2\).jpeg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .wrapper .program .program-information {
-    width: 50%;
+    width: 42vw;
     margin: 10rem 10rem;
 }
 
 .wrapper .program .program-information h2 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: #303D4A;
     margin-bottom: 5rem;
 }
 
 .wrapper .program .program-information p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: #737982;
     margin-bottom: 5rem;
-    width: 45rem;
+   
 }
 
 .wrapper .program .program-information #pattern-btn {
-    width: 20%;
+    width: 30%;
     padding: 1rem;
     background-color: #F0C9C4;
     border: none;
