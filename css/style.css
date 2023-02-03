@@ -67,7 +67,7 @@
 }
 
 .wrapper .main .main-information h1 {
-    font-size: rem;
+    font-size: 3.5rem;
     color: #303D4A;
     margin-bottom: 4rem;
 }
@@ -164,32 +164,30 @@
 
 .wrapper .types {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 6rem 10rem;
-    background-image: url(../assets/img/img\ \(6\).jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: 100%;
+    background-color:#f7f7f7;
 }
 
 .wrapper .types .types-information h2 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: #303D4A;
     margin-bottom: 5rem;
 }
 
 .wrapper .types .types-information p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: #737982;
     margin-bottom: 5rem;
 }
 
 .wrapper .types .types-information #pattern-btn {
-    width: 30%;
+    width: 40%;
     padding: 1rem;
     background-color: #F0C9C4;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #303D4A;
     cursor: pointer;
@@ -198,6 +196,10 @@
 .wrapper .types .types-information #pattern-btn:hover {
     background-color: #d4b0ab;
     color: #555a5a;
+}
+
+.wrapper .types .types-information-img img{
+    width: 35rem;
 }
 
 
