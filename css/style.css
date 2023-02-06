@@ -210,7 +210,8 @@
 }
 
 .wrapper .promotional img {
-    width: 250rem;
+    margin-left: 2rem;
+    width: 220rem;
 }
 
 .wrapper .promotional .promotional-information {
@@ -219,13 +220,13 @@
 }
 
 .wrapper .promotional .promotional-information h2 {
-    font-size: 5rem;
+    font-size: 3rem;
     color: #303D4A;
     margin-bottom: 4rem;
 }
 
 .wrapper .promotional .promotional-information p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #737982;
     margin-bottom: 4rem;
 }
