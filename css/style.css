@@ -255,7 +255,7 @@
     background-image: url(../assets/img/img\ \(10\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5rem;
+    padding: 2rem 5rem;
 }
 
 .wrapper .galery .galery-information {
@@ -272,7 +272,7 @@
 }
 
 .wrapper .galery .galery-information p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: #737982;
     margin: 0 15rem;
     text-align: center;
@@ -285,7 +285,6 @@
     margin-bottom: 5rem;
 }
 
-
 .wrapper .galery .galery-cards .galery-card-itens {
     display: flex;
     flex-direction: column;
@@ -295,8 +294,13 @@
     background-color: #f7f7f7;
 }
 
+.wrapper .galery .galery-cards .galery-card-itens img {
+    width: 100%;
+}
+
+
 .wrapper .galery .galery-cards .galery-card-itens h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #303D4A;
     margin: 1rem;
 }
