@@ -3,6 +3,10 @@
 ## 💻 Sobre o Projeto
 Landing page desenvolvida com HTML e CSS. 
 
+## 🎨 Layout
+
+![image](https://github.com/marianamoiolicapelari/landing-page-pregnance/blob/main/assets/img/Layout.jpg)
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
