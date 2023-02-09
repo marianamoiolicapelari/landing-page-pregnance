@@ -19,8 +19,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
-    padding: 0.5rem 6.5rem;
+    width: 100%;
+    padding: .5rem 4rem;
     z-index: 1;
     background-color: #F3F2F0;
 }
@@ -49,7 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 7rem 2rem 2rem 2rem;
+    padding: 7rem 1rem 2rem 1rem;
     background-color:#f7f7f7;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,20 +104,20 @@
 
 .wrapper .program .program-information {
     width: 42vw;
-    margin: 10rem 10rem;
+    margin: 10rem 5rem;
 }
 
 .wrapper .program .program-information h2 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: #303D4A;
     margin-bottom: 5rem;
 }
 
 .wrapper .program .program-information p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #737982;
     margin-bottom: 5rem;
-    width: 27rem;
+    width: 35rem;
 }
 
 .wrapper .program .program-information #pattern-btn {
@@ -171,20 +171,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem 10rem;
+    padding: 5rem 6rem;
     background-color:#f7f7f7;
 }
 
 .wrapper .types .types-information h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #303D4A;
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
 }
 
 .wrapper .types .types-information p {
-    font-size: 1.2rem;
+    width: 90%;
+    font-size: 1.1rem;
     color: #737982;
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
 }
 
 .wrapper .types .types-information #pattern-btn {
@@ -192,7 +193,7 @@
     padding: 1rem;
     background-color: #F0C9C4;
     border: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #303D4A;
     cursor: pointer;
@@ -204,7 +205,7 @@
 }
 
 .wrapper .types .types-information-img img{
-    width: 35rem;
+    width: 40rem;
 }
 
 
@@ -382,7 +383,7 @@
     margin-bottom: 2rem;
     padding: 0 10rem;
     text-align: center;
-    width: 89rem;
+   
 }
 
 .wrapper .contact .contact-form {
