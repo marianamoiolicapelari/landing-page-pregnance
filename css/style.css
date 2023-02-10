@@ -212,37 +212,38 @@
 .wrapper .promotional {
     display: flex;
     background-color: #F1F0EE;
-    padding-top: 3rem;
+    width: 100%;
 }
 
 .wrapper .promotional img {
-    margin-left: 2rem;
-    width: 220rem;
+    width: 190rem;
 }
 
 .wrapper .promotional .promotional-information {
+    width: 105%;
     position: relative;
-    right: 6rem;
+    right: 10rem;
+    padding-top: 8rem;
 }
 
 .wrapper .promotional .promotional-information h2 {
     font-size: 3rem;
     color: #303D4A;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .wrapper .promotional .promotional-information p {
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: #737982;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .wrapper .promotional .promotional-information #pattern-btn {
-    width: 30%;
+    width: 50%;
     padding: 1rem;
     background-color: #F0C9C4;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #303D4A;
     cursor: pointer;
