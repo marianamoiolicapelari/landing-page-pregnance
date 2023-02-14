@@ -50,7 +50,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 7rem 1rem 2rem 1rem;
-    background-color:#f7f7f7;
+    background-color: #f7f7f7;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -61,7 +61,7 @@
     margin: 1rem;
 }
 
-.wrapper .main .main-img img{
+.wrapper .main .main-img img {
     width: 600px;
 }
 
@@ -150,7 +150,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:end;
+    justify-content: end;
     width: 25rem;
     height: 20rem;
     padding: 1rem;
@@ -161,7 +161,7 @@
     color: #303D4A;
 }
 
-.wrapper .steps .itens-steps p  {
+.wrapper .steps .itens-steps p {
     margin: 0.5rem 0;
     font-size: 1.1rem;
     color: #555a5f;
@@ -172,7 +172,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 5rem 6rem;
-    background-color:#f7f7f7;
+    background-color: #f7f7f7;
 }
 
 .wrapper .types .types-information h2 {
@@ -204,7 +204,7 @@
     color: #555a5a;
 }
 
-.wrapper .types .types-information-img img{
+.wrapper .types .types-information-img img {
     width: 40rem;
 }
 
@@ -379,12 +379,12 @@
 }
 
 .wrapper .contact p {
-    font-size: 1.5rem;
+    width: 60%;
+    font-size: 1.3rem;
     color: #737982;
     margin-bottom: 2rem;
-    padding: 0 10rem;
     text-align: center;
-   
+
 }
 
 .wrapper .contact .contact-form {
@@ -446,7 +446,7 @@
 
 .wrapper .footer .company h2 {
     margin-bottom: 1rem;
-} 
+}
 
 .wrapper .footer .company h3 {
     margin-top: 1rem;
@@ -481,5 +481,4 @@
 .wrapper .footer .icons .fa-brands:hover {
     color: #6b6d6e;
 }
-
 
